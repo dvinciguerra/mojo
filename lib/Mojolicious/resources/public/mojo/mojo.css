@@ -176,6 +176,12 @@ th {
 .tap-border-top, #infos {
   border-top: 1px solid #e1e4e8;
 }
+.text-toggle[aria-expanded="false"] > .text-expanded {
+  display: none;
+}
+.text-toggle[aria-expanded="true"] > .text-collapsed {
+  display: none;
+}
 .tooltip code {
   background: 0;
   border: 0;
